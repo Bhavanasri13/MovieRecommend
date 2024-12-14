@@ -1,0 +1,213 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* First Page Background */
+.bg1 {
+    background: url('bg1.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* Second Page Background */
+.bg2 {
+    background: url('bg2.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+.bg3 {
+    background: url('bg1.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header .logo {
+    color: #ffa500;
+    font-size: 24px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/* Welcome Container */
+.welcome-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.second-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Dropdown Container */
+.dropdown-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.dropdown-container select {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+/* Profile Page Styling */
+.profile-container {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.profile-container h1, .profile-container h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-item {
+    width: 150px;
+    text-align: center;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-item p {
+    margin: 5px 0;
+}
+.movie-item {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+.movie-poster {
+    width: 150px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.profile-container {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.profile-container h1, .profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-overview, .preferences, .watched-movies, .edit-preferences {
+    margin-bottom: 30px;
+}
+
+.watched-movies .movie-item {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.watched-movies .movie-item img {
+    width: 120px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.edit-preferences form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.edit-preferences form label {
+    font-weight: bold;
+}
+
+.edit-preferences form input, .edit-preferences form select, .edit-preferences form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.edit-preferences form button {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-preferences form button:hover {
+    background-color: darkorange;
+}

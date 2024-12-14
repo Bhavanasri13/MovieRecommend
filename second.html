@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Next Movie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg2">
+    <main>
+        <div class="dropdown-container">
+            <h1>Find Your Next Movie!</h1>
+            <p>Select how you'd like to explore movies:</p>
+            <select id="main-dropdown">
+                <option value="" disabled selected>Select an Option</option>
+                <option value="genre">By Genre</option>
+                <option value="movie-name">By Movie Name</option>
+                <option value="mood">By Mood</option>
+                <option value="rating">By Ratings</option>
+            </select>
+            <div id="sub-dropdown-container" class="hidden">
+                <select id="sub-dropdown"></select>
+            </div>
+            <div id="recommendations" class="hidden"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
